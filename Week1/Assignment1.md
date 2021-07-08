@@ -23,6 +23,7 @@ Some of the salient features of MLOps and AIOps are listed below.
 * Predictive maintenance
 * Incident management
 
+Source: https://www.ibm.com/in-en/cloud/learn/aiops
 
 
 
@@ -37,7 +38,7 @@ The interpretation of a weight in the linear regression model depends on the typ
 * Categorical feature with multiple categories: A feature with a fixed number of possible values.
 * Intercept $ \beta_{0} $: The intercept is the feature weight for the "constant feature", which is always 1 for all instances. Most software packages automatically add this "1"-feature to estimate the intercept. The interpretation is: For an instance with all numerical feature values at zero and the categorical feature values at the reference categories, the model prediction is the intercept weight. The interpretation of the intercept is usually not relevant because instances with all features values at zero often make no sense. The interpretation is only meaningful when the features have been standardised (mean of zero, standard deviation of one). Then the intercept reflects the predicted outcome of an instance where all features are at their mean value. 
 
-
+Source: https://christophm.github.io/interpretable-ml-book/limo.html
 
 3. Automated Machine Learning (AutoML) provides methods and processes to make Machine Learning available for non-Machine Learning experts, to improve efficiency of Machine Learning and to accelerate research on Machine Learning. 
 
@@ -67,6 +68,8 @@ Commercial Tools:
 * Google Cloud AutoML solution on Google Cloud Platform
 * AutoAI in IBM Watson Studio for automation of data preparation, model development, feature engineering, and hyper-parameter optimization
 * Oracle Accelerated Data Science (ADS) SDK, a Python library included as part of the Oracle Cloud Infrastructure Data Science service
+
+Source: https://en.wikipedia.org/wiki/Automated_machine_learning
 
 # Part 2
 
